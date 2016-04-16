@@ -834,7 +834,7 @@ a {
   color: transparent;
 }
 #header .header-nav .social #豆瓣 {
-  background: url("/img/豆瓣.png") center no-repeat #CC00FF;
+  background: url("/img/豆瓣.png") center no-repeat #336161;
 }
 #header .header-nav .social .GitHub:before {
   content: '\f18a';
