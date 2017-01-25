@@ -3,17 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>风满楼</title>
+  <title>几道前端面试题小记 | 风满楼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="这里是风满楼同学的个人博客，记录生活与学习，欢迎来玩~">
-<meta property="og:type" content="website">
-<meta property="og:title" content="风满楼">
-<meta property="og:url" content="http://huyansheng3.github.io/index.html">
+  <meta name="description" content="最近面试了不少家，苦于前端经验薄弱，被各种血虐。做了不少家面试题，把各种不会的回来再做一遍，作为经验总结吧。
+1.如何最优性能去重一个数组？方法有好多，比如新建一个数组，原数组的内容依次往里放，若该数组元素已存在，则跳过；又或者先排序，依次比较前后两个元素是否相等，若相等，则去掉删除后一个元素。面试官有提到使用 filter 的方法,但是当场没想到，发现这个方法其实属于相当不错的，这种函数式的思维">
+<meta property="og:type" content="article">
+<meta property="og:title" content="几道前端面试题小记">
+<meta property="og:url" content="http://huyansheng3.github.io/2017/01/26/几道前端面试题小记/index.html">
 <meta property="og:site_name" content="风满楼">
-<meta property="og:description" content="这里是风满楼同学的个人博客，记录生活与学习，欢迎来玩~">
+<meta property="og:description" content="最近面试了不少家，苦于前端经验薄弱，被各种血虐。做了不少家面试题，把各种不会的回来再做一遍，作为经验总结吧。
+1.如何最优性能去重一个数组？方法有好多，比如新建一个数组，原数组的内容依次往里放，若该数组元素已存在，则跳过；又或者先排序，依次比较前后两个元素是否相等，若相等，则去掉删除后一个元素。面试官有提到使用 filter 的方法,但是当场没想到，发现这个方法其实属于相当不错的，这种函数式的思维">
+<meta property="og:updated_time" content="2017-01-25T23:38:30.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="风满楼">
-<meta name="twitter:description" content="这里是风满楼同学的个人博客，记录生活与学习，欢迎来玩~">
+<meta name="twitter:title" content="几道前端面试题小记">
+<meta name="twitter:description" content="最近面试了不少家，苦于前端经验薄弱，被各种血虐。做了不少家面试题，把各种不会的回来再做一遍，作为经验总结吧。
+1.如何最优性能去重一个数组？方法有好多，比如新建一个数组，原数组的内容依次往里放，若该数组元素已存在，则跳过；又或者先排序，依次比较前后两个元素是否相等，若相等，则去掉删除后一个元素。面试官有提到使用 filter 的方法,但是当场没想到，发现这个方法其实属于相当不错的，这种函数式的思维">
   
     <link rel="alternative" href="/atom.xml" title="风满楼" type="application/atom+xml">
   
@@ -30,13 +34,8 @@
   
   <link rel="stylesheet" href="/css/style.css">
   
-      <style> .article { opacity: 0;} </style>
-  
   <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  
-    
-    
   
   
     <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
@@ -46,8 +45,8 @@
       var yiliaConfig = {
           fancybox: true,
           animate: true,
-          isHome: true,
-          isPost: false,
+          isHome: false,
+          isPost: true,
           isArchive: false,
           isTag: false,
           isCategory: false,
@@ -234,9 +233,7 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-几道前端面试题小记" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-几道前端面试题小记" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2017/01/26/几道前端面试题小记/" class="article-date">
@@ -252,12 +249,23 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/26/几道前端面试题小记/">几道前端面试题小记</a>
+    <h1 class="article-title" itemprop="name">
+      几道前端面试题小记
     </h1>
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CSS/">CSS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HTML/">HTML</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端/">前端</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/面试/">面试</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -315,410 +323,106 @@
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CSS/">CSS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HTML/">HTML</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端/">前端</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/面试/">面试</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-新手程序员常犯的十个错误" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/01/26/新手程序员常犯的十个错误/" class="article-date">
-      <time datetime="2017-01-25T23:26:23.000Z" itemprop="datePublished">2017-01-26</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/26/新手程序员常犯的十个错误/">新手程序员常犯的十个错误</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>先介绍下背景，博主由运营转行前端，入职一个月，完成了一个相对较大的模块。由于基础相对薄弱，犯下了不少错误，故想记录下来<strong>警醒自己</strong>和分享各位。</p>
-<p>前端技术栈是 <code>ES6</code> + <code>backbone</code> + <code>react</code> + <code>antdUI</code>,后端使用的 <code>Ruby on Rails</code>。</p>
-<h3 id="1-未遵循MVC分离思想"><a href="#1-未遵循MVC分离思想" class="headerlink" title="1.未遵循MVC分离思想"></a>1.未遵循MVC分离思想</h3><p>MVC说起来非常简单易懂，即model+view+controll，数据-视图-控制分离，特定的模块做特定的事情，便于程序的维护和拆分。我的体验是我有这个意识，却常常写出不合规范的代码。</p>
-<p>出现问题的原因是抽象是不符合人的天性的，天性就是怎么简单怎么来，不会顾及到整体架构如何。</p>
-<p>解决办法也很简单，<strong><em>改！</em></strong> 不停的修改你的代码，改到完美为止！改的过程中不断告诉自己，我这样写是错的，下次不能这样写。坚持一段时间很有效果。</p>
-<h3 id="2-缺少必要的注释"><a href="#2-缺少必要的注释" class="headerlink" title="2.缺少必要的注释"></a>2.缺少必要的注释</h3><p>大段的if-else缺少注释，让维护者无法快速分辨分支逻辑。特定地方存在hack或复杂逻辑的代码，缺少注释会让后来者不明所以。为了你好，也为了后来者好，请务必加上代码。说不准以后还是由你来维护这段代码。</p>
-<h3 id="3-不变和变化的部分拆分"><a href="#3-不变和变化的部分拆分" class="headerlink" title="3.不变和变化的部分拆分"></a>3.不变和变化的部分拆分</h3><p>程序员中流传着一句话，<strong>此处不要写死，将来必改</strong>。有经验的程序员会将一些业务层的逻辑抽象出来，写成配置文件，好处就是若后续需求有改变，只需改配置文件即可，肯定不会引入bug。</p>
-<h3 id="4-忽视测试部分"><a href="#4-忽视测试部分" class="headerlink" title="4.忽视测试部分"></a>4.忽视测试部分</h3><p>程序员中又流传着一句话，<strong>没有测试的代码等于没写</strong>。虽不敢全部赞同，却也有几分道理。从测试用例驱动开发，持续集成，每次编译自动跑测试用例，能够保证系统的稳定同时也减轻测试成本。自己改的的部分做好自测，理解需求，做一个<strong>有责任心</strong>的工程师。</p>
-<h3 id="5-直接操作数据"><a href="#5-直接操作数据" class="headerlink" title="5.直接操作数据"></a>5.直接操作数据</h3><p>你应该通过方法去操作数据，而不是直接操作数据,这样能够保证你总能操作数据正确。<br>例如一个类中定义的属性发生变化了，代码中所有涉及到直接操作该属性的代码都需要修改。如果通过方法操作该属性，则仅需修改操作方法，对于外部调用者，类属性变化被屏蔽了，遵循了解耦的原则，代码稳定性大大提高。</p>
-<h3 id="6-代码中存在hard-code"><a href="#6-代码中存在hard-code" class="headerlink" title="6.代码中存在hard code"></a>6.代码中存在<code>hard code</code></h3><p><code>hard code</code>=&gt;<code>魔法数字</code>，后果是代码中不明所以的数字到处乱飞，让人读来莫名其妙，全然不动其中的意思。如果你不想你的代码被人破译，请尽情的使用<code>hard code</code>吧</p>
-<h3 id="7-写重复的代码"><a href="#7-写重复的代码" class="headerlink" title="7.写重复的代码"></a>7.写重复的代码</h3><p><code>DRY,don&#39;t repeat yourself!</code> 这个话题聊起来估计三天三夜也说不完。电脑擅长人不愿意干的、重复的事情，所以电脑解放了人类。那么程序员如何解放自己呢？那就是不写重复的代码，其中一个准则就是三次。一件事情重复三次，就可以从中提取出规律。</p>
-<p>Example: 1， 2， 3， ….</p>
-<p>Example: 1， 2， ….</p>
-<h3 id="8-不懂debug和如何解决问题"><a href="#8-不懂debug和如何解决问题" class="headerlink" title="8.不懂debug和如何解决问题"></a>8.不懂debug和如何解决问题</h3><p><strong>写代码从debug开始</strong>。每一个初学C语言的人都会遇到各种各样的问题，譬如缺了分号，if判断写成赋值。初学者不了解语言和其中的坑，唯一能解决问题的就是一步一步进入代码的执行，找到其中不合预期的地方，即为<code>bug</code>所在。找一个称手的IDE，学习一下<code>debug</code>，<strong><em>80%的问题就会被文档和<code>debug</code>解决</em></strong></p>
-<h3 id="9-不规范的工作流"><a href="#9-不规范的工作流" class="headerlink" title="9.不规范的工作流"></a>9.不规范的工作流</h3><p>制定合理的工作流程能够减少风险事故的可能和提高工作效率。对于程序员来说，<code>work flow</code>更意味着代码的组织，工作成员之间的协作方式。我常犯的一个错误是直接在<code>alpha</code>或<code>master</code>分支上直接commit，而团队是不允许这样做的。所有的修改必须只能通过 <code>merge</code> 的方式合并到主分支，这样的好处在于避免<code>bugfix</code>仅在<code>alpha</code>上处理，而忘记<code>merge</code>到<code>master</code>上。这些都可以通过 <code>CI</code> 或者<code>git hook</code> 等一些脚本或工具完成。</p>
-<hr>
-<p>良好的编码习惯不是一日养成的，要从各个细节处不断修正提高。好的代码结构清晰，读来赏心悦目，坏的代码，混乱糟糕，让维护者忍不住骂娘。一位初学者要不断地读大师的代码，汲取其中的养分，不断修改自己的代码，祝愿各位有朝一日都能写出优雅的代码。</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/程序人生/">程序人生</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/程序员/">程序员</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/01/15/hello-world/" class="article-date">
-      <time datetime="2017-01-15T11:59:18.000Z" itemprop="datePublished">2017-01-15</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/15/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hello-world/">hello world</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2017/01/15/hello-world/#more">阅读全文 >></a>
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2017/01/26/几道前端面试题小记/">几道前端面试题小记</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">风满楼</a></p>
+        <p><span>发布时间:</span>2017-01-26, 07:29:36</p>
+        <p><span>最后更新:</span>2017-01-26, 07:38:30</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2017/01/26/几道前端面试题小记/" title="几道前端面试题小记">http://huyansheng3.github.io/2017/01/26/几道前端面试题小记/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://huyansheng3.github.io/2017/01/26/几道前端面试题小记/　　作者: 风满楼" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-CSS学习笔记" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/23/CSS学习笔记/" class="article-date">
-      <time datetime="2016-07-23T07:45:26.000Z" itemprop="datePublished">2016-07-23</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/23/CSS学习笔记/">CSS学习笔记</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>选择符种类和用法<br>ID和class区别<br>1、ID可用于页面内导航链接中<br>2、ID在页面中唯一地标识一个元素，通常会在页面内的每个顶级区域都添加一个ID，从而得到非常明确的上下文，<br>以便编写CSS时只选择嵌套在相应区域内的标签<br>3、类的目的是为了标识具有相同特征的元素<br>属性名选择符<br>属性值选择符<br>基于属性名和属性的选择符为我们提供了另外一种对待相同标签的机会。</p>
-<p>伪类分为：UI伪类和结构化伪类，UI伪类会在HTML元素处于某个状态时，为该元素应用CSS样式<br>结构化伪类会在标记中存在某种结构上的关系时，为相应元素应用CSS元素。</p>
-<p>LVHA：list/visited/hover/ation</p>
-<p>浏览器默认样式表<br>用户样式表<br>作者链接样式表<br>作者嵌入样式<br>作者行内样式</p>
-<p>样式生效的层叠规则<br>1、找到应用给每个元素和属性的所有声明<br>2、按照顺序和权重排序<br>3、按特指度排序<br>4、顺序决定权重</p>
-<p>CSS属性值主要有三大类：文本值、数字值、颜色值</p>
-<p>三、定位元素</p>
-<p>1、没有设定宽度的元素始终扩展到填满其父元素的宽度为止。添加水平边框、内边距和外边距，会导致内容宽度减少，<br>减少量等于水平边框、内边距和外编剧的和<br>2、为设定了宽度的盒子添加边框、内边距和外边距，会导致盒子扩展得更宽。实际上，盒子的width属性设定的只是盒子<br>内容区的宽度，而非黑子要占据的水平宽度。</p>
-<p>浮动：当你浮动一个图片或者其它元素时，你是要求浏览器把它往上方推，直到它碰到父元素的内边界。而后面的段落不再<br>认为浮动元素在文档六中位于它的前面了，因而它会占据父元素左上角的位置。不过它的内容会绕开浮动的图片。  </p>
-<p>清除浮动：<br>1、为父元素添加overflow：hidden<br>2、同时浮动父元素，由于会收缩包裹住它的子元素，所以需要设置宽度为100%<br>3、添加（无意义的）非浮动的子元素，仅用于清除浮动</p>
-<p>定位：static、relative、absolute、fixed<br>相对定位相对的是原来在文档流中的位置（或者默认位置），原位置留空保持不变。<br>绝对定位会彻底将元素从文档流中拿出来，定位的参照物为position设定为relative的祖先元素(或者默认上下文定位元素，如body)。<br>固定定位元素的定位上下文是视口，不会随着页面滚动而移动。</p>
-<p>display（是否展示出来）和visibility（可见性）的区别：当visibility设置为hidden时，元素会应隐藏，但他占据的空间<br>仍然虚位以待。</p>
-<p>多张图片在背景中叠加起来，CSS规则中先列出的图片在上层   </p>
-<p>字体属性和文本属性</p>
-<p>子元素继承的是根据父元素宽度计算得到的缩进值。</p>
-<p>文本装饰：underline、overline、line-through、blink、none<br>文本对齐：left、right、center、justify<br>行高：通常与字体大小一起设定，如 1.2em/1.4，为字体大小的倍数<br>垂直对其：vretical-align：sub/super/top/middle/bottom</p>
-<p>多栏布局的三种基本实现方案：固定宽度、流动、弹性</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/">Android</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/">Python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-post" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/23/post/" class="article-date">
-      <time datetime="2016-07-23T07:44:54.000Z" itemprop="datePublished">2016-07-23</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/23/post/">post</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/">Android</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/">Python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-关于转岗的思考" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/04/17/关于转岗的思考/" class="article-date">
-      <time datetime="2016-04-16T16:46:33.000Z" itemprop="datePublished">2016-04-17</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/17/关于转岗的思考/">关于转岗的思考</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>在三月份的末尾总算是鼓起了勇气向老大提起了离职的事情，来猎豹也快一年了，工作也挺辛苦的，学到了蛮多关于公司和运营方面的知识。<br>技术上基本没有太多的长进，每隔一段时间总会给自己打打鸡血，然后熬夜看书到2点钟，最后也没能坚持下来。</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/">Android</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/">Python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-Git学习总结" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/04/14/Git学习总结/" class="article-date">
-      <time datetime="2016-04-13T16:12:59.000Z" itemprop="datePublished">2016-04-14</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/14/Git学习总结/">Git学习总结</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <p>之前其实有稍微学习一点git，不过很久没用导致忘了很多，这次重新捡起来。</p>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/04/14/Git学习总结/#more">阅读全文 >></a>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
         </p>
-      
-      <div class="clearfix"></div>
     </div>
-    
-  </div>
+
+
+
+    <nav id="article-nav">
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2017/01/26/新手程序员常犯的十个错误/">
+                    新手程序员常犯的十个错误
+                </a>
+            </div>
+        
+    </nav>
+
   
 </article>
 
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-如何最优性能去重一个数组？"><span class="toc-number">1.</span> <span class="toc-text">1.如何最优性能去重一个数组？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-变量声明和函数声明提升"><span class="toc-number">2.</span> <span class="toc-text">2.变量声明和函数声明提升</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-作用域和-this"><span class="toc-number">3.</span> <span class="toc-text">3.作用域和 this</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-setTimeout-深入分析其机制"><span class="toc-number">4.</span> <span class="toc-text">4.setTimeout 深入分析其机制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-class属性覆盖问题"><span class="toc-number">5.</span> <span class="toc-text">5.class属性覆盖问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-实现类似-jquery-的-one-方法"><span class="toc-number">6.</span> <span class="toc-text">6.实现类似 jquery 的 one 方法</span></a></li></ol>
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
+
+
+
+
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <li id="bds_twi"><a href="#" class="bds_twi" data-cmd="twi" title="分享到推特"></a></li>
+            <li id="bds_tsina"><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a></li>
+            <li id="bds_sqq"><a href="#" class="bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a></li>
+            <li id="bds_copy"><a href="#" class="bds_copy" data-cmd="copy" title="复制网址"></a></li>
+            <li id="bds_mail"><a href="#" class="bds_mail" data-cmd="mail" title="通过邮件分享"></a></li>
+            <li id="bds_weixin"><a href="#" class="bds_weixin" data-cmd="weixin" title="生成文章二维码"></a></li>
+            <li id="bds_more"><a href="#" class="bds_more" data-cmd="more"></i></a></li>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"几道前端面试题小记　| 风满楼　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
 
 
 
@@ -726,9 +430,53 @@
 
 
 
+    
+      <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2017/01/26/几道前端面试题小记/" data-title="几道前端面试题小记" data-url="http://huyansheng3.github.io/2017/01/26/几道前端面试题小记/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"huyansheng3"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
 
-  
-  
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2017/01/26/新手程序员常犯的十个错误/" title="下一篇: 新手程序员常犯的十个错误">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/01/26/几道前端面试题小记/">几道前端面试题小记</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/01/26/新手程序员常犯的十个错误/">新手程序员常犯的十个错误</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/01/15/hello-world/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/23/CSS学习笔记/">CSS学习笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/23/post/">post</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/17/关于转岗的思考/">关于转岗的思考</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/14/Git学习总结/">Git学习总结</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
